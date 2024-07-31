@@ -1,0 +1,100 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    width: 50%;
+    background-color: rgb(2, 2, 56);
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home{
+    width: 48%;
+    background-color: rgb(2, 2, 56);
+    color: aliceblue;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-left: 7em;
+}
+.nav-link{
+    color: white; 
+    text-decoration: none; 
+}
+.nav-link:hover {
+    text-decoration: underline; 
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+}
+.Historia{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(159, 154, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor1{
+    width: 98%;
+    height: 100%;
+    background-color: aquamarine;
+    background-image: url('./imagenes/super.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 1%; /* Añade un poco de espacio alrededor del texto */
+    color: hsl(240, 12%, 97%); /* Cambia el color del texto para que sea legible sobre la imagen */
+    font-size: 25px;
+    font-weight: bold;
+}
+.contenedor2{
+    width: 100%;
+    height: auto;
+    border: 1px;
+    background-color: rgb(145, 138, 152);
+    display: flex;
+    flex-flow: wrap;
+    justify-content:center;
+}
+.oferta, .Oferton {
+    width: 45%;
+    height:15% ;
+    margin: 1em;
+    padding: 1em;
+    background-color: #fe7b0f;
+    border: 1px solid rgb(245, 27, 27);
+    font-size:25px;
+    text-align: center;
+}
+.oferta img, .Oferton img {
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: rgb(6, 6, 43);
+    color: aliceblue;
+    font-size: 100%;
+    display: flex;
+    padding:1% ;
+   
+}
+.footerimg{
+   width: 5%;
+   padding: 1%;
+}
+
+

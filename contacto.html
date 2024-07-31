@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacto/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Formulario de contacto</h1>
+        </div>
+        <div class="contacto">
+        <nav>
+         <ul>
+            <li> <a href="./index.html" class="nav-link">Home</a></li>
+            <li> <a href="./productos.html" class="nav-link">Productos</a></li>
+            <li> <a href="./contacto.html" class="nav-link">Contacto</a></li>
+         </ul>
+        </nav>
+        </div>
+     </header> 
+     <main>
+        <h1>Contacto</h1>
+        <form id="contacto-formulario" class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" class="forma">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" class="forma">
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="forma">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" class="forma">
+            <label for="consulta">Consulta:</label>
+            <textarea id="consulta" name="consulta" class="consulta-forma"></textarea>
+            
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+     </main>
+     <footer>
+        <p>Seguinos en nuestras redes sociales</p>
+        <img src="./diseño/imagenes/redes.jpg" alt="Redes sociales" class="footerimg">
+    </footer>
+    <script type="text/javascript" src="./contacto/contacto.js"></script>
+</body>
+</html>
